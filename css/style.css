@@ -1,0 +1,279 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+html{
+    font-size: 10px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    }
+
+.container{
+    max-width: 1920px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color:#000000;
+  }
+.main-heading{
+    text-align: center;
+    margin:3.8rem 0 5.2rem 0;
+}
+
+label{
+    font-size: 13px;
+}
+.notification{
+    margin-top: 0.8rem;
+}
+
+/*-------- banner-------- */
+.header-main img {
+    display: block;
+    margin: 0 auto;
+    padding: 2rem 0 ;
+}
+
+.banner{
+    background-image: url("../MyImages/banner-img.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+}
+.customer-reg-form{
+    background-color: #FFFFFF;
+    width:54%;
+    height:90%;
+    float:right;
+}
+
+.reg-form{
+    padding:3.83rem 2.45rem 4.1rem 5.05rem;
+}
+.row-group{width:46%;}
+input, select{
+        background-color: #F7F5F2;
+        outline: none;
+        border: none;
+        width: 90%;
+        height: 40px;
+        margin: 0.8rem 0 1.8rem 0;
+    }
+
+input[type="checkbox"] {
+    width:14px;
+    height:14px;
+    cursor: pointer;
+    
+}
+
+.submit-info{
+    margin-top: 25px;
+    text-align: center;
+}
+.submit{
+    background-color: #000000;
+    color: white;
+    padding: 10px 80px;
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+    text-transform: uppercase;
+    width: 50%;
+    font-size: 14px;
+}
+.submit:hover {
+    border: 1px solid black;
+    background-color: transparent;
+    color: black;
+}
+
+.customer-reg-form h4{
+    font-size:24px;
+    font-weight: 400;
+    line-height: 1.5em;
+    padding-bottom: 1.97rem;}
+.form-field{font-size: 13px;}
+
+
+/*-------Our Work ------- */
+.our-work{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    }
+.work-flow{padding-top:5rem;}
+.work-body {
+    background-color: #F7F5F2;
+}
+
+.work-body h3, .first h3,  .decor-concept>h3, .testimonials>h3  {
+    font-size: 36px;
+    font-weight: 400;
+}
+.work-body p{
+    font-size: 14px;
+}
+
+.our-work-steps {
+    padding:0 30px;
+    border-right: 1px solid grey;
+}
+
+.step3 {
+    border: none;
+}
+.square {
+    height: 45px;
+    width: 45px;
+    background-color: #000000;
+    margin:0 auto;
+  }
+  span {
+      font-size:2.7rem;
+   color:#FFFFFF;
+  }
+
+.our-work-steps h4 {
+    padding-top: 20px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.our-work-steps p {
+    padding-top: 8px;
+    font-size: 14px;
+}
+.work-body, .square,  .our-work-steps, .f-content, .decor-concept>h3, .testimonials>h3 {
+    text-align: center;
+}
+
+/* -----------home-decor-concepts------------- */
+.text-decor h3 {
+    font-size: 36px;
+    font-weight: 300;}
+.test-decor p{
+    font-size: 24px;
+}
+.decor-content {
+    display: flex;
+    justify-content: center;
+    padding: 70px 110px;
+    position: relative;
+}
+
+.coastal-txt {
+    width: 30%;
+    padding: 80px 54px;
+    font-weight: lighter;
+}
+
+.coastal-txt p {
+    font-size: 24px;
+    padding-top: 3px;
+    line-height: 1.4em;
+}
+
+/* ---------------testimonials------------- */
+.testimonials {
+    background-color: #F7F5F2;
+    padding-top: 50px;
+    width: 100vw;
+}
+
+.testimonials-decor{
+    display: flex;
+    justify-content: center;
+    padding: 70px 110px;
+}
+.first{
+    width: 45%;
+    padding: 10px 50px;
+}
+
+.name{
+font-size: small;
+text-decoration: underline;
+padding-top: 7px;
+}
+ .test-para{
+     font-size:16px;
+    padding-top: 25px;
+}
+.test-decor img{
+    height: 400px;
+    width: 704px;
+    object-fit: cover;
+}
+.test2{
+    padding-left: 160px;
+    padding-top: 5px;
+}
+
+/*------------- footer ------------*/
+
+.f-content{
+    background-color: #000000;
+}
+.f-content h6{
+    text-transform: uppercase;
+    color:#FFFFFF;
+    padding:1.2rem 0 3.19rem 0;
+    font-size: 12px;
+}
+.f-style{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding:2.2rem 0;
+}
+
+/* Slideshow container */
+.slideshow-container{
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  .sliders{
+      width:100%;
+  }
+  
+  /* Next & previous buttons of slider*/
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: gray;
+    font-size: 18px;
+    transition: 0.6s ease;
+  }
+  
+  .prev{
+      left:12%;
+  }
+  .next {
+    right: 9%;
+  }
+  .prev:hover, .next:hover {
+    background-color: #000000;
+  }
+ 
+
+/*/------------footer -------------/*/
+
