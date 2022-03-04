@@ -1,24 +1,11 @@
  /* --------------/ Media Query /-------------- */
 
-  /*----Larger Laptops, Desktops------*/
-@media (min-width: 1281px) {
-  .banner{
-        height: 150vh;
-      }
-    
-  }
-  
   /*---- Laptops, Desktops------*/
   
   @media (min-width: 1025px) and (max-width: 1280px) {
     
-    .banner{
-        background-image: url("../MyImages/smallhead-img.png");
-        background-size: 100% 100%;
-    }
 .customer-reg-form{
           width:60%;
-          height:auto;
           margin-top: 27px;
         }
 .customer-reg-form h4{
@@ -47,10 +34,8 @@ input, select{
 .work-flow {
         padding-top:2rem;
     }
-.work-body h3, .first h3, .decor-concept>h3, .testimonials>h3  {
-        text-align: center;
-        font-size: 34px;
-        font-weight: 400;
+.work-body h3, .first h4, .decor-concept h3, .testimonials h3  {
+       font-size: 34px;
     }
 .our-work{padding:1rem;}
 .our-work-steps h4 {
@@ -71,7 +56,7 @@ input, select{
         padding: 17% 2%;
         text-align: center;
     }
-    .text-decor h3{font-size: 28px;}
+    .text-decor h4{font-size: 28px;}
     
     .text-decor p{
         font-size: 18px;
@@ -105,10 +90,8 @@ input, select{
     .testing{
         padding-top: 30px;
     }
-    .first h3{
+    .first h4{
         font-size: 25px;
-        font-weight: 400;
-        text-align: left;
     }
     .test-para{
         font-size: 13px;
@@ -133,13 +116,8 @@ input, select{
   
  @media (min-width: 768px) and (max-width: 1024px) {
     
-.banner{
-        background-image: url("../MyImages/smallhead-img.png");
-        background-size: 100% 100%;
-    }
 .customer-reg-form{
-          width:100%;
-          height:auto;
+          width:80%;
           margin-top: 25px;
         }
 .customer-reg-form h4{
@@ -169,10 +147,8 @@ input, select{
 .work-flow {
         padding-top:2rem;
     }
-.work-body h3, .first h3, .decor-concept>h3, .testimonials>h3  {
-        text-align: center;
+.work-body h3, .first h4, .decor-concept h3, .testimonials h3  {
         font-size: 32px;
-        font-weight: 400;
     }
 .our-work-steps h4 {
         font-size: 23px;
@@ -205,7 +181,7 @@ input, select{
         padding: 0px;
         text-align: center;
     }
-    .text-decor h3{font-size: 28px;}
+    .text-decor h4{font-size: 28px;}
     
     .text-decor p{
         font-size: 18px;
@@ -239,10 +215,8 @@ input, select{
     .testing{
         padding-top: 30px;
     }
-    .first h3{
+    .first h4{
         font-size: 25px;
-        font-weight: 400;
-        text-align: left;
     }
     .test-para{
         font-size: 13px;
@@ -267,14 +241,8 @@ input, select{
   
   @media (min-width: 481px) and (max-width: 767px) {
     
-.banner{
-        background-image: url("../MyImages/smallhead-img.png");
-        background-size: 100% 97%;
-        display:block;
-    }
 .customer-reg-form{
           width:100%;
-          height:auto;
           margin-top: 25px;
         }
 .customer-reg-form h4{
@@ -304,11 +272,9 @@ input, select{
 .work-flow {
         padding-top:2rem;
     }
-.work-body h3, .first h3, .decor-concept>h3, .testimonials>h3  {
-        text-align: center;
+.work-body h3, .first h4, .decor-concept h3, .testimonials h3  {
         font-size: 32px;
-        font-weight: 400;
-    }
+        }
 .our-work-steps h4 {
         font-size: 23px;
     }
@@ -340,10 +306,11 @@ input, select{
         padding: 0px;
         text-align: center;
     }
-    .text-decor h3{font-size: 28px;}
+    .text-decor h4{font-size: 28px;}
     
     .text-decor p{
         font-size: 18px;
+        margin-bottom: 18px;
     }
     
     .slider{
@@ -374,11 +341,9 @@ input, select{
     .testing{
         padding-top: 30px;
     }
-    .first h3{
+    .first h4{
         font-size: 25px;
-        font-weight: 400;
-        text-align: left;
-    }
+        }
     .test-para{
         font-size: 13px;
     }
@@ -397,19 +362,18 @@ input, select{
         height: auto;
     }
   }
+  @media(max-width:767px){
+   .image-decor{
+    width: 100%;
+   }
+  }
     
  /* Smartphones Mobiles (Portrait)*/
   
   @media (min-width: 320px) and (max-width: 480px) {
-    
-.banner{
-        background-image: url("../MyImages/smallhead-img.png");
-        background-size: 100% 98%;
-        display:block;
-    }
+
 .customer-reg-form{
           width:100%;
-          height:auto;
           margin-top: 20px;
         }
 .customer-reg-form h4{
@@ -439,10 +403,8 @@ input, select{
 .work-flow {
         padding-top:2rem;
     }
-.work-body h3, .first h3, .decor-concept>h3, .testimonials>h3  {
-        text-align: center;
+.work-body h3, .first h4, .decor-concept h3, .testimonials h3  {
         font-size: 31px;
-        font-weight: 400;
     }
 .our-work-steps h4 {
         font-size: 22px;
@@ -475,11 +437,12 @@ input, select{
         padding: 0px;
         text-align: center;
     }
-   .text-decor h3 {
+   .text-decor h4 {
         font-size: 22px;
     }
     .text-decor p{
         font-size: 17px;
+        margin-bottom: 18px;
     }
     
     .slider{
@@ -488,22 +451,23 @@ input, select{
         padding-top: 30px;
     }
     .prev, .next{
-        top:71%;
+        top:64%;
     }
     .prev{
-        left:-5%;
+        left:-3%;
     }
     .next{
           right:-3%;
     }
 
     .testimonials-decor {
-        padding: 1rem;
+        padding: 1.5rem;
         flex-wrap: wrap;
     }
     .test-decor img {
         height: 230px;
         background-size: 100% 100%;
+        width:100%;
     }
     .first{
         width: 100%;
@@ -512,9 +476,8 @@ input, select{
     .testing{
         padding-top: 30px;
     }
-    .first h3{
-        font-size: 25px;
-        font-weight: 400;
+    .first h4{
+        font-size: 20px;
         }
     .test-para{
         font-size: 13px;
@@ -538,15 +501,9 @@ input, select{
    /* On smaller screens less than 300px */
    @media only screen and (max-width: 300px){
 
-    .prev, .next{font-size: 11px}
-    .banner{
-        background-image: url("../MyImages/smallhead-img.png");
-        background-size: 100% 80%;
-        display:block;
-    }
+.prev, .next{font-size: 11px}
 .customer-reg-form{
           width:100%;
-          height:auto;
           margin-top: 40px;
         }
 .customer-reg-form h4{
@@ -576,10 +533,8 @@ input, select{
 .work-flow {
         padding-top:2rem;
     }
-.work-body h3, .first h3, .decor-concept>h3, .testimonials>h3  {
-        text-align: center;
+.work-body h3, .first h4, .decor-concept h3, .testimonials h3  {
         font-size: 28px;
-        font-weight: 400;
     }
 .our-work-steps h4 {
         font-size: 20px;
@@ -612,7 +567,7 @@ input, select{
         padding: 0px;
         text-align: center;
     }
-   .text-decor h3 {
+   .text-decor h4 {
         font-size: 18px;
     }
     .text-decor p{
@@ -643,9 +598,8 @@ input, select{
     .testing{
         padding-top: 30px;
     }
-    .first h3{
+    .first h4{
         font-size: 25px;
-        font-weight: 400;
         }
     .test-para{
         font-size: 13px;

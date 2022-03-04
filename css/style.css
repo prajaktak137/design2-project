@@ -14,7 +14,8 @@ body {
     }
 
 .container{
-    max-width: 1920px;
+    max-width: 1280px;
+    width:100%;
     padding-left: 15px;
     padding-right: 15px;
     margin: auto;
@@ -43,26 +44,27 @@ label{
     padding: 2rem 0 ;
 }
 
-.banner{
-    background-image: url("../MyImages/banner-img.png");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    object-fit: cover;
-    width: 100vw;
-    height: 100vh;
-    display:flex;
-}
+.banner {
+        background-image: url(../MyImages/banner-img.png);
+        background-repeat: no-repeat;
+        width: 100%;
+        background-size: cover;
+        padding-top: 1.5rem;
+        padding-bottom: 3rem;
+        display:flex;
+    }
+    
 .customer-reg-form{
     background-color: #FFFFFF;
     width:54%;
-    height:90%;
+    height:auto;
     float:right;
 }
 
 .reg-form{
     padding:3.83rem 2.45rem 4.1rem 5.05rem;
 }
-.row-group{width:46%;}
+
 input, select{
         background-color: #F7F5F2;
         outline: none;
@@ -109,21 +111,18 @@ input[type="checkbox"] {
 
 
 /*-------Our Work ------- */
-.our-work{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 50px;
-    }
+
 .work-flow{padding-top:5rem;}
 .work-body {
     background-color: #F7F5F2;
 }
 
-.work-body h3, .first h3,  .decor-concept>h3, .testimonials>h3  {
+.work-body h3, .first h4, .decor-concept h3, .testimonials h3  {
     font-size: 36px;
     font-weight: 400;
+    text-align: center;
 }
+.first h4{ text-align: left;}
 .work-body p{
     font-size: 14px;
 }
@@ -157,29 +156,31 @@ input[type="checkbox"] {
     padding-top: 8px;
     font-size: 14px;
 }
-.work-body, .square,  .our-work-steps, .f-content, .decor-concept>h3, .testimonials>h3 {
+.work-body, .square,  .our-work-steps, .f-content, .decor-concept h3, .testimonials h3 {
     text-align: center;
 }
 
 /* -----------home-decor-concepts------------- */
-.text-decor h3 {
+.text-decor h3, .text-decor h4 {
     font-size: 36px;
     font-weight: 300;}
 .test-decor p{
     font-size: 24px;
 }
 .decor-content {
-    display: flex;
-    justify-content: center;
-    padding: 70px 110px;
     position: relative;
 }
 
 .coastal-txt {
-    width: 30%;
-    padding: 80px 54px;
-    font-weight: lighter;
-}
+        width: 30%;
+        padding: 80px 54px;
+        font-weight: lighter;
+        float: left;
+    }
+.image-decor {
+        width: 70%;
+    }
+.ImageSlides{display:none;}
 
 .coastal-txt p {
     font-size: 24px;
@@ -194,10 +195,11 @@ input[type="checkbox"] {
     width: 100vw;
 }
 
-.testimonials-decor{
+.testimonials-decor, .decor-content, .our-work{
     display: flex;
     justify-content: center;
-    padding: 70px 110px;
+    align-items: center;
+    padding: 5rem;
 }
 .first{
     width: 45%;
@@ -255,20 +257,19 @@ padding-top: 7px;
   .prev, .next {
     cursor: pointer;
     position: absolute;
-    top: 50%;
+    top: 42%;
     width: auto;
     padding: 16px;
-    margin-top: -22px;
     color: gray;
     font-size: 18px;
     transition: 0.6s ease;
   }
   
   .prev{
-      left:12%;
+      left:8%;
   }
   .next {
-    right: 9%;
+    right: 4%;
   }
   .prev:hover, .next:hover {
     background-color: #000000;
