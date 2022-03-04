@@ -37,7 +37,7 @@ input, select{
 .work-body h3, .first h4, .decor-concept h3, .testimonials h3  {
        font-size: 34px;
     }
-.our-work{padding:1rem;}
+    
 .our-work-steps h4 {
         font-size: 22px;
     }
@@ -76,7 +76,6 @@ input, select{
     }
     
     .testimonials-decor {
-        padding: 4rem;
         flex-wrap: wrap;
     }
     .test-decor img {
@@ -164,7 +163,6 @@ input, select{
        
     }
     .our-work, .decor-content {
-        padding: 5%;
         display:block;
     }
     .our-work-steps:nth-child(2) {
@@ -177,8 +175,7 @@ input, select{
     }
     .coastal-txt {
        display:block;
-       width:100%;
-        padding: 0px;
+        padding: 50px 10px;
         text-align: center;
     }
     .text-decor h4{font-size: 28px;}
@@ -201,7 +198,6 @@ input, select{
     }
     
     .testimonials-decor {
-        padding: 4rem;
         flex-wrap: wrap;
     }
     .test-decor img {
@@ -289,7 +285,6 @@ input, select{
        
     }
     .our-work, .decor-content {
-        padding: 7%;
         flex-wrap: wrap;
     }
     .our-work-steps:nth-child(2) {
@@ -327,7 +322,6 @@ input, select{
     }
     
     .testimonials-decor {
-        padding: 4rem;
         flex-wrap: wrap;
     }
     .test-decor img {
@@ -420,7 +414,6 @@ input, select{
        
     }
     .our-work, .decor-content {
-        padding: 7%;
         flex-wrap: wrap;
     }
     .our-work-steps:nth-child(2) {
@@ -461,7 +454,6 @@ input, select{
     }
 
     .testimonials-decor {
-        padding: 1.5rem;
         flex-wrap: wrap;
     }
     .test-decor img {
@@ -550,7 +542,6 @@ input, select{
        
     }
     .our-work, .decor-content {
-        padding: 7%;
         flex-wrap: wrap;
     }
     .our-work-steps:nth-child(2) {
@@ -584,7 +575,6 @@ input, select{
     }
     
     .testimonials-decor {
-        padding: 4rem;
         flex-wrap: wrap;
     }
     .test-decor img {

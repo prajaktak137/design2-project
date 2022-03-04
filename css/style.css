@@ -14,7 +14,7 @@ body {
     }
 
 .container{
-    max-width: 1280px;
+    max-width: 1100px;
     width:100%;
     padding-left: 15px;
     padding-right: 15px;
@@ -112,7 +112,7 @@ input[type="checkbox"] {
 
 /*-------Our Work ------- */
 
-.work-flow{padding-top:5rem;}
+.work-flow{padding:4rem;}
 .work-body {
     background-color: #F7F5F2;
 }
@@ -121,6 +121,7 @@ input[type="checkbox"] {
     font-size: 36px;
     font-weight: 400;
     text-align: center;
+    padding-bottom:2rem;
 }
 .first h4{ text-align: left;}
 .work-body p{
@@ -180,6 +181,9 @@ input[type="checkbox"] {
 .image-decor {
         width: 70%;
     }
+.image-decor img {
+        max-width: 100%;
+    }
 .ImageSlides{display:none;}
 
 .coastal-txt p {
@@ -199,11 +203,18 @@ input[type="checkbox"] {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5rem;
+}
+.testimonials-decor{
+    padding-bottom:2rem;
 }
 .first{
     width: 45%;
-    padding: 10px 50px;
+}
+.p-right{
+    padding-right: 25px;
+}
+.p-left{
+    padding-left: 25px;
 }
 
 .name{
@@ -221,7 +232,6 @@ padding-top: 7px;
     object-fit: cover;
 }
 .test2{
-    padding-left: 160px;
     padding-top: 5px;
 }
 
@@ -249,9 +259,7 @@ padding-top: 7px;
     position: relative;
     margin: auto;
   }
-  .sliders{
-      width:100%;
-  }
+  
   
   /* Next & previous buttons of slider*/
   .prev, .next {
@@ -266,10 +274,10 @@ padding-top: 7px;
   }
   
   .prev{
-      left:8%;
+      left:3%;
   }
   .next {
-    right: 4%;
+    right: 3%;
   }
   .prev:hover, .next:hover {
     background-color: #000000;
