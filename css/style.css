@@ -38,9 +38,8 @@ label{
 }
 
 /*-------- banner-------- */
+.header-main{text-align: center;}
 .header-main img {
-    display: block;
-    margin: 0 auto;
     padding: 2rem 0 ;
 }
 
