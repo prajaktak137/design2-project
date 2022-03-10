@@ -112,7 +112,31 @@ input[type="checkbox"] {
 
 /*-------Our Work ------- */
 
-.work-flow{padding:4rem;}
+.our-work {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex: 0 1 auto;
+    -webkit-box-flex: 0;
+    flex: 0 1 auto;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 -1rem;
+    list-style: none;
+}
+.our_work__column{
+    -ms-flex-preferred-size: 33.333%;
+    flex-basis: 33.333%;
+    max-width: 33.333%;
+    padding: 0 0.5rem;
+}
+.work-flow{padding:4rem 0;}
 .work-body {
     background-color: #F7F5F2;
 }
@@ -121,7 +145,7 @@ input[type="checkbox"] {
     font-size: 36px;
     font-weight: 400;
     text-align: center;
-    padding-bottom:2rem;
+    padding-bottom:6rem;
 }
 .first h4{ text-align: left;}
 .work-body p{
@@ -174,7 +198,7 @@ input[type="checkbox"] {
 
 .coastal-txt {
         width: 30%;
-        padding: 80px 54px;
+        padding: 70px 54px;
         font-weight: lighter;
         float: left;
     }
@@ -199,7 +223,7 @@ input[type="checkbox"] {
     width: 100vw;
 }
 
-.testimonials-decor, .decor-content, .our-work{
+.testimonials-decor, .decor-content{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -265,7 +289,7 @@ padding-top: 7px;
   .prev, .next {
     cursor: pointer;
     position: absolute;
-    top: 42%;
+    top: 37%;
     width: auto;
     padding: 16px;
     color: gray;

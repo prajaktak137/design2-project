@@ -544,9 +544,9 @@ input, select{
     .our-work, .decor-content {
         flex-wrap: wrap;
     }
-    .our-work-steps:nth-child(2) {
+    /* .our-work-steps:nth-child(2) {
         padding: 4rem 4rem 1rem 4rem;
-      }
+      } */
     
     .step3 {
         padding-top: 4rem;
