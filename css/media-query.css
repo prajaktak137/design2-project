@@ -388,11 +388,8 @@ input, select{
 }
     
 .header-main img{
-<<<<<<< HEAD
+
     width: 100%;
-=======
-    width: 85vw;
->>>>>>> c522531b0e1db5d3d4a865a35744a48c450cb8de
     padding:1.5rem 0;
 }
  
@@ -491,9 +488,6 @@ input, select{
     }
 }  
     
-<<<<<<< HEAD
-   
-=======
    /* On smaller screens less than 300px */
    @media only screen and (max-width: 300px){
 
@@ -615,5 +609,3 @@ input, select{
 
   }
   
-  
->>>>>>> c522531b0e1db5d3d4a865a35744a48c450cb8de
