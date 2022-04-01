@@ -44,9 +44,6 @@ input, select{
         padding-bottom:2%;
        
     } 
-    .step3 {
-        padding-top: 3rem;
-    }
     .coastal-txt {
         padding: 17% 2%;
         text-align: center;
@@ -64,10 +61,10 @@ input, select{
     }
     .prev, .next{
         top:47%;
-        right:0%;
+        right:-1%;
     }
     .prev{
-        left:0%;
+        left:-1%;
     }
     
     .testimonials-decor {
@@ -92,9 +89,6 @@ input, select{
     }
     .test3{
         order: 1;
-    }
-    .test2{
-        padding: 0px 47px 70px 47px;
     }
     .test-decor{
         order: 2;
@@ -154,16 +148,6 @@ input, select{
     .our-work-steps p {
         font-size: 14px;
         padding-bottom:2%;
-       
-    }
-    
-    .our-work-steps:nth-child(2) {
-        padding: 4rem 4rem 3rem 4rem;
-      }
-    
-    .step3 {
-        padding-top: 4rem;
-        border-bottom: none;
     }
     .coastal-txt {
        display:block;
@@ -211,9 +195,6 @@ input, select{
     }
     .test3{
         order: 1;
-    }
-    .test2{
-        padding: 0px 47px 70px 47px;
     }
     .test-decor{
         order: 2;
