@@ -53,7 +53,6 @@ input, select{
     .text-decor p{
         font-size: 18px;
     }
-    
     .slider{
         display:block;
         width:100%;
@@ -66,7 +65,6 @@ input, select{
     .prev{
         left:-1%;
     }
-    
     .testimonials-decor {
         flex-wrap: wrap;
     }
@@ -125,11 +123,9 @@ input, select{
 .reg-form{
     padding:1.5rem;
 }
-    
 .header-main img{
     padding:1.8rem 0;
 }
-    
 .work-flow {
         padding-top:3rem;
     }
